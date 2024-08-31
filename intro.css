@@ -1,0 +1,59 @@
+body {
+    font-family: "Poppins";
+    background-color: black;
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+p {
+    font-size: 2.3em;
+    font-family: "Dancing Script";
+}
+
+.oneImageContainer {
+    margin-top: 3%;
+}
+
+.oneImageContainer p {
+    margin-top: 1%;
+    margin-bottom: -1%;
+}
+
+.oneImage {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.cardContainer {
+    margin-top: 10%;
+}
+
+.cardItemContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 80%;
+}
+
+.cardItemContainer p {
+    text-align: left;
+}
+
+.cardImages {
+    width: 500px;
+}
+
+
+/* Helper Classes */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
